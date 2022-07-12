@@ -45,6 +45,8 @@ links:
     url:          /
   - name:         About
     url:          /about
+  - name:         Other Stories
+    url:          /
 # - name:         GitHub
 #    url:          https://github.com/jxltom/scribble-enhanced
 #    external:     true
