@@ -19,7 +19,7 @@ url:              https://mehkanik.github.io
 # and NOT your User repository (http://yourusername.github.io)
 # and Not using a custom domain
 # then add in the baseurl here, like this: "/repository-name"
-baseurl:          "/C40"
+baseurl:          "/C39"
 
 
 #
