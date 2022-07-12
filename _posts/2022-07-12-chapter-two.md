@@ -2,6 +2,7 @@
 layout: post
 title: Example with GitHub Flavored Markdown
 comment: y
+permalink: ch2
 ---
 
 ---
