@@ -1,6 +1,7 @@
 ---
 layout: post
-title: An Enhanced Scribble Jekyll Theme
+title: "Chapter 1: An Enhanced Scribble Jekyll Theme"
+permalink: ch1
 ---
 
 ## Overview
