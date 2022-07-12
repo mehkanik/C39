@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example with GitHub Flavored Markdown
+title: "Chapter 2: Example with GitHub Flavored Markdown"
 comment: y
 permalink: ch2
 ---
