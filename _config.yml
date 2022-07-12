@@ -1,22 +1,80 @@
-# ----------- CONFIGURABLE START -----------
-title:            "Scribble"
-description:      "Such theme, very cool."
-url:              https://mehkanik.github.io/C39 # Site url, without a slash at the end.
-signoff:          "" # Your name
-facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
-share:            false # Turn on twitter and facebook share buttons
+#
+# This file contains configuration flags to customize your site
+#
 
+# Title of your site which will display in the header.
+title:            scribble-enhanced
+
+# Short bio or description which will display in the header.
+description:      An enhanced scribble Jekyll theme
+
+# Your website URL (e.g. http://jxltom.github.io or http://blog.jxltom.me)
+# Used for sitemap.xml and your RSS feed
+# If you're hosting your site at a Project repository, the url still should be
+# http://yourusername.github.io
+url:              https://mehkanik.github.io
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# and Not using a custom domain
+# then add in the baseurl here, like this: "/repository-name"
+baseurl:          "/C40"
+
+
+#
+# Flags below are optional
+#
+
+# Your name for signoff. Leave empty for no name signoff.
+signoff:
+
+# Enter your Disqus shortname (not your username)
+# or your duoshuo shortname to enable commenting on posts.
+# You can find your shortname on the Settings page of your Disqus account.
+# You can only set one between disqus and duoshuo.
+disqus:
+duoshuo:
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking.
+google_analytics:
+
+# A list of links which will show as navigation bar.
 links:
-  - name:         Posts
+  - name:         Blog
     url:          /
-    external:     false
-  - name:         About me
+  - name:         About
     url:          /about
-    external:     false
-# ------------ CONFIGURABLE END ------------
+  - name:         GitHub
+    url:          https://github.com/jxltom/scribble-enhanced
+    external:     true
+permalink:        pretty
 
-permalink:        /posts/:title
-defaults:
-  - values:
-      layout: "default"
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - Rakefile
