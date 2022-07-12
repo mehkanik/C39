@@ -2,6 +2,7 @@
 layout: post
 title: "Chapter 1: An Enhanced Scribble Jekyll Theme"
 permalink: ch1
+date: 2020-06-11
 ---
 
 ## Overview
