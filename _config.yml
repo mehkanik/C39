@@ -46,7 +46,7 @@ links:
   - name:         About
     url:          /about
   - name:         Other Stories
-    url:          writing
+    url:          "http://mehkanik.github.io/writing"
 # - name:         GitHub
 #    url:          https://github.com/jxltom/scribble-enhanced
 #    external:     true
