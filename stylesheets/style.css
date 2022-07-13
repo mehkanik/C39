@@ -104,10 +104,15 @@ header {
     text-align: center;
 }
 
-#page_title, #page_title:hover {
+#page_title {
     color: #1a87c7;
     padding-top: 45px;
+    font-size: large;
 }
+
+#page_title:hover {
+    color: #f9f9f9;
+    }
 
 footer {
     width: 100%;
