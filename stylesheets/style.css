@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-    background: #f9f9f9;
+    background: #222222;
     color: #303030;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -128,10 +128,10 @@ footer * {
     box-sizing: border-box;
     width: 100%;
     max-width: 768px;
-    background: #fff;
+    background: #303030;
     margin: 40px auto 20px;
     border-radius: 7px;
-    border: 1px solid #eee;
+    border: 1px solid #606060;
     position: relative;
 }
 
@@ -198,7 +198,7 @@ footer * {
 
 a, .as-link {
     text-decoration: none;
-    color: #269;
+    color: #f9f9f9;
     line-height: 1.4em;
     display: inline-block;
     vertical-align: baseline;
@@ -213,7 +213,7 @@ a, .as-link {
 }
 
 a.main, a:hover, .as-link.main, .as-link:hover {
-    color: #1d5884;
+    color: #1a87c7;
     background-repeat: repeat-x;
     background-position: left bottom;
 }
