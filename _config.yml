@@ -48,6 +48,8 @@ links:
   - name:         Other Stories
     url:          "http://mehkanik.github.io/writing"
     external:     true
+  - name:         Licensing
+    url:          /license
 # - name:         GitHub
 #    url:          https://github.com/jxltom/scribble-enhanced
 #    external:     true
