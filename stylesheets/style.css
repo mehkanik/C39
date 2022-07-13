@@ -346,8 +346,8 @@ section.post ul li, section.post ol li {
 section.post h1 {
     text-transform: uppercase;
     text-align: center;
-    line-height: 1.5em;
-    margin-bottom: 45px;
+    line-height: 0.5em;
+    margin-bottom: 40px;
 }
 
 section.post h1 .date {
