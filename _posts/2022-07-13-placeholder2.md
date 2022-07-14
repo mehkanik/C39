@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Placeholder 2
-permalink: placholder2
+permalink: placeholder2
 ---
 
 Lorem ipsum or some shit. Chrome is borked when it comes to cacheing so I've been hard refreshing and yet it keeps reverting to some cached version I shouldn't have since I cleared my cache completely.
