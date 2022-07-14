@@ -1,15 +1,11 @@
 ---
 layout: post
-title: Placehold Tres
+title: Placeholder Tres
 permalink: placeholder3
 ---
 
-Free me from the
- 
-Untenable lifestyle of 
-
-Growing productive during the night
-
-
+Free me from the<br/>
+Untenable lifestyle of<br/> 
+Growing productive during the night<br/>
 
 Acrostic poems are lame, right?
